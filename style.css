@@ -8,12 +8,12 @@ body  {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .bg {
-    height: 900px;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: rgb(223, 129, 191);
+    background-color: rgb(228, 228, 228);
 }
 h1 {
     justify-content: center;
@@ -70,4 +70,89 @@ button:hover {
     justify-content: center;
     align-items: center;
 }
-
+.padaugint {
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+}
+.send {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(163, 163, 163);
+    border: 4px rgb(236, 106, 82) dashed;
+}
+.palet {
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 70px;
+    background-color: rgb(241, 241, 162);
+}
+.palet2 {
+    width: 55px;
+    height: 70px;
+    background-color: rgb(241, 241, 162)
+}
+.boxes1 {
+    width: 20px;
+    height: 60px;
+}
+.boxes2 {
+    width: 24px;
+    height: 30px;
+}
+.boxes3 { 
+    width: 18px;
+    height: 28px;
+}
+.boxes4 {
+    width: 12px;
+    height: 23px;
+}
+.boxes5 {
+    width: 22px;
+    height: 12px;
+}
+.shape {
+    background-color: darkgoldenrod;
+    border: 1px rgb(65, 65, 65) solid;
+}
+.boxes6 {
+    width: 50px;
+    height: 60px;
+}
+.inn1 {
+    width: 25px;
+    height: 37px;
+    display: flex;
+    border-right: 2px green solid;
+}
+.inn2 {
+    width: 49px;
+    height: 20px;
+    display: flex;
+    border-top: 2px green solid;
+}
+.boxes7 {
+    width: 25px;
+    height: 55px;
+}
+.in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rotate {
+    rotate: 90deg;
+}
+.two {
+    flex-direction: column;
+    padding: 0;
+}
+.kontrole {
+    display: flex;
+}
