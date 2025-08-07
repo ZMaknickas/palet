@@ -88,18 +88,24 @@ button:hover {
 .palet {
     justify-content: center;
     align-items: center;
-    width: 110px;
+    width: 95px;
     height: 70px;
     background-color: rgb(241, 241, 162);
+    border: 1px rgb(139, 139, 139) solid;
+    border-radius: 4px;
 }
 .palet2 {
-    width: 55px;
+    transform: translateX(15px); 
+    width: 50px;
     height: 70px;
-    background-color: rgb(241, 241, 162)
+    background-color: rgb(241, 241, 162);
+    border: 1px rgb(139, 139, 139) solid;
+    border-radius: 4px;
 }
 .boxes1 {
     width: 20px;
     height: 60px;
+    z-index: 3;
 }
 .boxes2 {
     width: 24px;
@@ -156,5 +162,5 @@ button:hover {
     display: flex;
 }
 .onto {
-    transform: translateY(130px);
+    transform: translateY(132px);
 }
